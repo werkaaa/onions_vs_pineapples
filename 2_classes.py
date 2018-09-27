@@ -18,8 +18,9 @@ from matplotlib import pyplot as plt
 
 
 
-planes=np.load("/input/airplane.npy")
-onions=np.load("/input/onion.npy")
+planes=np.load("/home/user/data/airplane.npy")
+onions=np.load("/home/user/data/onion.npy")
+
 
 class Net(nn.Module):
     def __init__(self):
