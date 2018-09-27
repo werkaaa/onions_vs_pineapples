@@ -1,0 +1,76 @@
+2018-09-25 10:34:23,950 neptune.internal.cli.commands.enqueue_utils INFO     enqueue_utils.py:77 - create_enqueued_experiment() CREATING EXPERIMENT
+2018-09-25 10:34:24,245 neptune.internal.cli.commands.enqueue_utils INFO     enqueue_utils.py:92 - create_enqueued_experiment() EXPERIMENT: 77384b54-1f21-48a8-b184-fab517471c3b ENQUEUED
+2018-09-25 10:34:24,763 git.cmd  DEBUG    cmd.py:722 - execute() Popen(['git', 'version'], cwd=/home/user/ex, universal_newlines=False, shell=None)
+2018-09-25 10:34:24,779 git.cmd  DEBUG    cmd.py:722 - execute() Popen(['git', 'version'], cwd=/home/user/ex, universal_newlines=False, shell=None)
+2018-09-25 10:34:25,750 root     DEBUG    tracking.py:67 - report_tracking_metrics() Track sent ({'app_id': '3102000718', 'properties': {'platform': 'Linux-4.4.0-135-generic-x86_64-with-Ubuntu-16.04-xenial', 'exit_code': 0, 'cli_version': '2.8.15', 'python_version': '3.5.2', 'error': None, 'execution_time': 377.7789999999999, 'git': 'git version 2.7.4', 'execution_status': 'success'}, 'identity': 'werkaa101', 'event': 'CLI_Command: send'})
+2018-09-25 10:44:36,882 neptune.internal.cli.commands.enqueue_utils INFO     enqueue_utils.py:77 - create_enqueued_experiment() CREATING EXPERIMENT
+2018-09-25 10:44:37,208 neptune.internal.cli.commands.enqueue_utils INFO     enqueue_utils.py:92 - create_enqueued_experiment() EXPERIMENT: a067c8cc-a241-49c0-a96b-b6ba47ac8e47 ENQUEUED
+2018-09-25 10:44:37,786 git.cmd  DEBUG    cmd.py:722 - execute() Popen(['git', 'version'], cwd=/home/user/ex, universal_newlines=False, shell=None)
+2018-09-25 10:44:37,797 git.cmd  DEBUG    cmd.py:722 - execute() Popen(['git', 'version'], cwd=/home/user/ex, universal_newlines=False, shell=None)
+2018-09-25 10:44:38,627 root     DEBUG    tracking.py:67 - report_tracking_metrics() Track sent ({'app_id': '3102000718', 'identity': 'werkaa101', 'properties': {'platform': 'Linux-4.4.0-135-generic-x86_64-with-Ubuntu-16.04-xenial', 'git': 'git version 2.7.4', 'python_version': '3.5.2', 'cli_version': '2.8.15', 'exit_code': 0, 'execution_time': 353.0990000000003, 'error': None, 'execution_status': 'success'}, 'event': 'CLI_Command: send'})
+2018-09-25 13:45:36,231 neptune.internal.cli.commands.enqueue_utils INFO     enqueue_utils.py:77 - create_enqueued_experiment() CREATING EXPERIMENT
+2018-09-25 13:45:36,755 neptune.internal.cli.commands.enqueue_utils INFO     enqueue_utils.py:92 - create_enqueued_experiment() EXPERIMENT: 901792ba-caad-4365-bbbc-e3455f71cc63 ENQUEUED
+2018-09-25 13:45:38,677 git.cmd  DEBUG    cmd.py:722 - execute() Popen(['git', 'version'], cwd=/home/user/ex, universal_newlines=False, shell=None)
+2018-09-25 13:45:38,689 git.cmd  DEBUG    cmd.py:722 - execute() Popen(['git', 'version'], cwd=/home/user/ex, universal_newlines=False, shell=None)
+2018-09-25 13:45:39,505 neptune.internal.cli.commands.executing.experiment_executor INFO     experiment_executor.py:115 - _execute() 
+sources_location: /home/user/ex
+entrypoint: 2_classes.py
+stdout_log_location: /home/user/ex/output/stdout
+stderr_log_location: /home/user/ex/output/stderr
+2018-09-25 13:45:39,914 neptune.internal.cli.commands.executing.experiment_executor INFO     experiment_executor.py:216 - _start_job() 
+entrypoint: 2_classes.py
+sources_location: /home/user/ex
+2018-09-25 13:45:39,915 neptune.internal.cli.processes.job_spawner INFO     job_spawner.py:144 - _start_process() Starting process
+2018-09-25 13:45:39,915 neptune.internal.cli.processes.job_spawner INFO     job_spawner.py:145 - _start_process() Command: ['/usr/bin/python3.5', '-u', '/usr/local/lib/python3.5/dist-packages/neptune/job_wrapper.py', '2_classes.py']
+2018-09-25 13:45:39,915 neptune.internal.cli.processes.job_spawner INFO     job_spawner.py:148 - _start_process() OS environment variables staring with 'NEPTUNE': NEPTUNE_ONLINE_CONTEXT: yes; NEPTUNE_JOB_ID: 901792ba-caad-4365-bbbc-e3455f71cc63; NEPTUNE_REST_API_URL: https://app.neptune.ml; NEPTUNE_WS_API_URL: wss://app.neptune.ml/api/notifications/v1
+2018-09-25 13:46:07,617 neptune.internal.cli.commands.executing.experiment_executor INFO     experiment_executor.py:147 - _execute() Job 2_classes.py has finished with exit code 1
+2018-09-25 13:46:09,684 root     DEBUG    tracking.py:67 - report_tracking_metrics() Track sent ({'app_id': '3102000718', 'event': 'CLI_Command: run', 'properties': {'git': 'git version 2.7.4', 'cli_version': '2.8.15', 'exit_code': 1, 'execution_time': 918.1469999999998, 'error': None, 'python_version': '3.5.2', 'execution_status': 'success', 'platform': 'Linux-4.4.0-135-generic-x86_64-with-Ubuntu-16.04-xenial'}, 'identity': 'werkaa101'})
+2018-09-25 13:50:25,154 neptune.internal.cli.commands.enqueue_utils INFO     enqueue_utils.py:77 - create_enqueued_experiment() CREATING EXPERIMENT
+2018-09-25 13:50:25,374 neptune.internal.cli.commands.enqueue_utils INFO     enqueue_utils.py:92 - create_enqueued_experiment() EXPERIMENT: 3be004da-d3de-4020-9eab-bfceb5eda1f5 ENQUEUED
+2018-09-25 13:50:26,443 git.cmd  DEBUG    cmd.py:722 - execute() Popen(['git', 'version'], cwd=/home/user/ex, universal_newlines=False, shell=None)
+2018-09-25 13:50:26,454 git.cmd  DEBUG    cmd.py:722 - execute() Popen(['git', 'version'], cwd=/home/user/ex, universal_newlines=False, shell=None)
+2018-09-25 13:50:27,144 neptune.internal.cli.commands.executing.experiment_executor INFO     experiment_executor.py:115 - _execute() 
+sources_location: /home/user/ex
+entrypoint: 2_classes.py
+stdout_log_location: /home/user/ex/output/stdout
+stderr_log_location: /home/user/ex/output/stderr
+2018-09-25 13:50:27,326 neptune.internal.cli.commands.executing.experiment_executor INFO     experiment_executor.py:216 - _start_job() 
+entrypoint: 2_classes.py
+sources_location: /home/user/ex
+2018-09-25 13:50:27,327 neptune.internal.cli.processes.job_spawner INFO     job_spawner.py:144 - _start_process() Starting process
+2018-09-25 13:50:27,328 neptune.internal.cli.processes.job_spawner INFO     job_spawner.py:145 - _start_process() Command: ['/usr/bin/python3.5', '-u', '/usr/local/lib/python3.5/dist-packages/neptune/job_wrapper.py', '2_classes.py']
+2018-09-25 13:50:27,328 neptune.internal.cli.processes.job_spawner INFO     job_spawner.py:148 - _start_process() OS environment variables staring with 'NEPTUNE': NEPTUNE_REST_API_URL: https://app.neptune.ml; NEPTUNE_WS_API_URL: wss://app.neptune.ml/api/notifications/v1; NEPTUNE_ONLINE_CONTEXT: yes; NEPTUNE_JOB_ID: 3be004da-d3de-4020-9eab-bfceb5eda1f5
+2018-09-25 13:51:19,075 neptune.internal.cli.commands.executing.experiment_executor INFO     experiment_executor.py:147 - _execute() Job 2_classes.py has finished with exit code 0
+2018-09-25 13:51:21,119 root     DEBUG    tracking.py:67 - report_tracking_metrics() Track sent ({'app_id': '3102000718', 'identity': 'werkaa101', 'event': 'CLI_Command: run', 'properties': {'error': None, 'execution_time': 996.9560000000004, 'execution_status': 'success', 'cli_version': '2.8.15', 'python_version': '3.5.2', 'exit_code': 0, 'platform': 'Linux-4.4.0-135-generic-x86_64-with-Ubuntu-16.04-xenial', 'git': 'git version 2.7.4'}})
+2018-09-25 13:52:54,976 neptune.internal.cli.commands.enqueue_utils INFO     enqueue_utils.py:77 - create_enqueued_experiment() CREATING EXPERIMENT
+2018-09-25 13:52:55,198 neptune.internal.cli.commands.enqueue_utils INFO     enqueue_utils.py:92 - create_enqueued_experiment() EXPERIMENT: 31a3c41a-7806-42d4-8179-8f32648425cf ENQUEUED
+2018-09-25 13:52:56,753 git.cmd  DEBUG    cmd.py:722 - execute() Popen(['git', 'version'], cwd=/home/user/ex, universal_newlines=False, shell=None)
+2018-09-25 13:52:56,764 git.cmd  DEBUG    cmd.py:722 - execute() Popen(['git', 'version'], cwd=/home/user/ex, universal_newlines=False, shell=None)
+2018-09-25 13:52:57,432 neptune.internal.cli.commands.executing.experiment_executor INFO     experiment_executor.py:115 - _execute() 
+sources_location: /home/user/ex
+entrypoint: 2_classes.py
+stdout_log_location: /home/user/ex/output/stdout
+stderr_log_location: /home/user/ex/output/stderr
+2018-09-25 13:52:57,612 neptune.internal.cli.commands.executing.experiment_executor INFO     experiment_executor.py:216 - _start_job() 
+entrypoint: 2_classes.py
+sources_location: /home/user/ex
+2018-09-25 13:52:57,613 neptune.internal.cli.processes.job_spawner INFO     job_spawner.py:144 - _start_process() Starting process
+2018-09-25 13:52:57,613 neptune.internal.cli.processes.job_spawner INFO     job_spawner.py:145 - _start_process() Command: ['/usr/bin/python3.5', '-u', '/usr/local/lib/python3.5/dist-packages/neptune/job_wrapper.py', '2_classes.py']
+2018-09-25 13:52:57,613 neptune.internal.cli.processes.job_spawner INFO     job_spawner.py:148 - _start_process() OS environment variables staring with 'NEPTUNE': NEPTUNE_REST_API_URL: https://app.neptune.ml; NEPTUNE_JOB_ID: 31a3c41a-7806-42d4-8179-8f32648425cf; NEPTUNE_WS_API_URL: wss://app.neptune.ml/api/notifications/v1; NEPTUNE_ONLINE_CONTEXT: yes
+2018-09-25 13:53:46,327 neptune.internal.cli.commands.executing.experiment_executor INFO     experiment_executor.py:147 - _execute() Job 2_classes.py has finished with exit code 0
+2018-09-25 13:53:48,507 root     DEBUG    tracking.py:67 - report_tracking_metrics() Track sent ({'app_id': '3102000718', 'event': 'CLI_Command: run', 'properties': {'cli_version': '2.8.15', 'execution_status': 'success', 'error': None, 'exit_code': 0, 'platform': 'Linux-4.4.0-135-generic-x86_64-with-Ubuntu-16.04-xenial', 'execution_time': 969.0090000000002, 'git': 'git version 2.7.4', 'python_version': '3.5.2'}, 'identity': 'werkaa101'})
+2018-09-25 15:07:15,612 neptune.internal.cli.commands.enqueue_utils INFO     enqueue_utils.py:77 - create_enqueued_experiment() CREATING EXPERIMENT
+2018-09-25 15:07:15,951 neptune.internal.cli.commands.enqueue_utils INFO     enqueue_utils.py:92 - create_enqueued_experiment() EXPERIMENT: c46be38d-64f5-434f-8a3b-b5a5a1ac2a6e ENQUEUED
+2018-09-25 15:07:17,586 git.cmd  DEBUG    cmd.py:722 - execute() Popen(['git', 'version'], cwd=/home/user/ex, universal_newlines=False, shell=None)
+2018-09-25 15:07:17,597 git.cmd  DEBUG    cmd.py:722 - execute() Popen(['git', 'version'], cwd=/home/user/ex, universal_newlines=False, shell=None)
+2018-09-25 15:07:18,673 root     DEBUG    tracking.py:67 - report_tracking_metrics() Track sent ({'identity': 'werkaa101', 'properties': {'error': None, 'git': 'git version 2.7.4', 'execution_time': 403.83399999999983, 'python_version': '3.5.2', 'execution_status': 'success', 'cli_version': '2.8.15', 'platform': 'Linux-4.4.0-135-generic-x86_64-with-Ubuntu-16.04-xenial', 'exit_code': 0}, 'app_id': '3102000718', 'event': 'CLI_Command: send'})
+2018-09-25 15:09:20,478 neptune.internal.cli.commands.enqueue_utils INFO     enqueue_utils.py:77 - create_enqueued_experiment() CREATING EXPERIMENT
+2018-09-25 15:09:20,823 neptune.internal.cli.commands.enqueue_utils INFO     enqueue_utils.py:92 - create_enqueued_experiment() EXPERIMENT: cbf50bd4-db27-47cd-9191-2ff77a183abf ENQUEUED
+2018-09-25 15:09:21,353 git.cmd  DEBUG    cmd.py:722 - execute() Popen(['git', 'version'], cwd=/home/user/ex, universal_newlines=False, shell=None)
+2018-09-25 15:09:21,364 git.cmd  DEBUG    cmd.py:722 - execute() Popen(['git', 'version'], cwd=/home/user/ex, universal_newlines=False, shell=None)
+2018-09-25 15:09:22,176 root     DEBUG    tracking.py:67 - report_tracking_metrics() Track sent ({'event': 'CLI_Command: send', 'identity': 'werkaa101', 'app_id': '3102000718', 'properties': {'platform': 'Linux-4.4.0-135-generic-x86_64-with-Ubuntu-16.04-xenial', 'git': 'git version 2.7.4', 'cli_version': '2.8.15', 'error': None, 'exit_code': 0, 'python_version': '3.5.2', 'execution_status': 'success', 'execution_time': 364.76100000000014}})
+2018-09-26 10:09:45,313 neptune.internal.cli.commands.enqueue_utils INFO     enqueue_utils.py:77 - create_enqueued_experiment() CREATING EXPERIMENT
+2018-09-26 10:09:45,675 neptune.internal.cli.commands.enqueue_utils INFO     enqueue_utils.py:92 - create_enqueued_experiment() EXPERIMENT: 21540a7a-54f4-489c-8e42-e5e07338f3d3 ENQUEUED
+2018-09-26 10:09:46,770 git.cmd  DEBUG    cmd.py:722 - execute() Popen(['git', 'version'], cwd=/home/user/ex, universal_newlines=False, shell=None)
+2018-09-26 10:09:46,791 git.cmd  DEBUG    cmd.py:722 - execute() Popen(['git', 'version'], cwd=/home/user/ex, universal_newlines=False, shell=None)
+2018-09-26 10:09:47,732 root     DEBUG    tracking.py:67 - report_tracking_metrics() Track sent ({'properties': {'execution_time': 453.3860000000001, 'execution_status': 'success', 'error': None, 'platform': 'Linux-4.4.0-135-generic-x86_64-with-Ubuntu-16.04-xenial', 'git': 'git version 2.7.4', 'exit_code': 0, 'python_version': '3.5.2', 'cli_version': '2.8.15'}, 'identity': 'werkaa101', 'app_id': '3102000718', 'event': 'CLI_Command: send'})
