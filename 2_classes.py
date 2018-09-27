@@ -21,6 +21,7 @@ from matplotlib import pyplot as plt
 planes=np.load("/home/user/data/airplane.npy")
 onions=np.load("/home/user/data/onion.npy")
 #Zmiana
+#Zmiana2
 
 class Net(nn.Module):
     def __init__(self):
