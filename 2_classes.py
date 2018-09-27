@@ -20,7 +20,7 @@ from matplotlib import pyplot as plt
 
 planes=np.load("/home/user/data/airplane.npy")
 onions=np.load("/home/user/data/onion.npy")
-
+#Zmiana
 
 class Net(nn.Module):
     def __init__(self):
