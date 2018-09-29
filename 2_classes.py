@@ -86,10 +86,11 @@ def test(model, device, test_loader):
 
     return avg_loss_val, avg_accuracy_val
 
-
-pltest = planes[1::100].reshape(-1, 1, 28, 28).astype('float32')
-ontest = onions[1::100].reshape(-1, 1, 28, 28).astype('float32')
-
+for _ in range(ctx.parameters.data)
+	pltest = planes[- ctx.parameters.data:].reshape(-1, 1, 28, 28).astype('float32')
+	ontest = onions[- ctx.parameters.data:].reshape(-1, 1, 28, 28).astype('float32')
+	pl2 = planes[:ctx.parameters.data].reshape(-1, 1, 28, 28).astype('float32')
+	on2 = onions[:ctx.parameters.data].reshape(-1, 1, 28, 28).astype('float32')
 
 pltest /= 255
 ontest /= 255
@@ -102,8 +103,7 @@ X_test = torch.cat((pltest_t, ontest_t), 0)
 Y_test = torch.LongTensor(pltest_t.size(0)*[0]+ontest_t.size(0)*[1])
 
 
-pl2 = planes[::100].reshape(-1, 1, 28, 28).astype('float32')
-on2 = onions[::100].reshape(-1, 1, 28, 28).astype('float32')
+
 
 
 pl2 /= 255

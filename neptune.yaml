@@ -1,0 +1,12 @@
+parameters:
+  data:
+    values:
+      - 10
+      - 100
+      - 1000
+      - 10000
+	
+
+metric:
+  channel: Log-loss validation
+  goal: minimize}
